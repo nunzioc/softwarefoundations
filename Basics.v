@@ -1376,7 +1376,6 @@ Qed.
     to the previous one but where the second hypothesis says that the
     function [f] has the property that [f x = negb x]. *)
 
-(* FILL IN HERE *)
 Theorem negation_fn_applied_twice :
   forall (f : bool -> bool),
   (forall (x: bool), f x = negb x) ->
