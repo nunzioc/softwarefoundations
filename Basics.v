@@ -1461,8 +1461,8 @@ Fixpoint incr (m:bin) : bin :=
 Fixpoint bin_to_nat (m:bin) : nat :=
   match m with
   | Z => O
-  | B m' => S (bin_to_nat m') + (bin_to_nat m')
-  | A m' => (bin_to_nat m') + (bin_to_nat m')
+  | A m' => bin_to_nat m' + bin_to_nat m'
+  | B m' => S (bin_to_nat m' + bin_to_nat m')
   end.
 
 (**    (b) Write five unit tests [test_bin_incr1], [test_bin_incr2], etc.
