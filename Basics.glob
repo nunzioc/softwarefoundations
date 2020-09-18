@@ -1,4 +1,4 @@
-DIGEST 04710f25f9a6e1dd79792cec5b2a39e3
+DIGEST 0da10493a2615f7171522c8937996dc5
 FLF.Basics
 ind 3257:3259 <> day
 constr 3275:3280 <> monday
@@ -783,111 +783,110 @@ R55490:55492 Coq.Init.Datatypes <> nat ind
 R55505:55505 LF.Basics <> m var
 R55516:55516 LF.Basics <> Z constr
 R55521:55521 Coq.Init.Datatypes <> O constr
-R55527:55527 LF.Basics <> B constr
-R55552:55555 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R55569:55569 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R55535:55535 Coq.Init.Datatypes <> S constr
-R55538:55547 LF.Basics <> bin_to_nat def
-R55556:55565 LF.Basics <> bin_to_nat def
-R55575:55575 LF.Basics <> A constr
-R55583:55583 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R55597:55601 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R55615:55615 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
-R55584:55593 LF.Basics <> bin_to_nat def
-R55602:55611 LF.Basics <> bin_to_nat def
-def 56105:56118 <> test_bin_incr1
-R56123:56123 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R56130:56134 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R56138:56138 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R56124:56127 LF.Basics <> incr def
-R56129:56129 LF.Basics <> Z constr
-R56135:56135 LF.Basics <> B constr
-R56137:56137 LF.Basics <> Z constr
-def 56174:56187 <> test_bin_incr2
-R56202:56204 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R56192:56195 LF.Basics <> incr def
-R56198:56198 LF.Basics <> B constr
-R56200:56200 LF.Basics <> Z constr
-R56205:56205 LF.Basics <> A constr
-R56208:56208 LF.Basics <> B constr
-R56210:56210 LF.Basics <> Z constr
-def 56247:56260 <> test_bin_incr3
-R56279:56281 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R56265:56268 LF.Basics <> incr def
-R56271:56271 LF.Basics <> A constr
-R56274:56274 LF.Basics <> B constr
-R56276:56276 LF.Basics <> Z constr
-R56282:56282 LF.Basics <> B constr
-R56285:56285 LF.Basics <> B constr
-R56287:56287 LF.Basics <> Z constr
-def 56324:56337 <> test_bin_incr4
-R56356:56358 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R56342:56345 LF.Basics <> incr def
-R56348:56348 LF.Basics <> B constr
-R56351:56351 LF.Basics <> B constr
-R56353:56353 LF.Basics <> Z constr
-R56359:56359 LF.Basics <> A constr
-R56362:56362 LF.Basics <> A constr
-R56365:56365 LF.Basics <> B constr
-R56367:56367 LF.Basics <> Z constr
-def 56405:56418 <> test_bin_incr5
-R56441:56443 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R56423:56426 LF.Basics <> incr def
-R56429:56429 LF.Basics <> A constr
-R56432:56432 LF.Basics <> A constr
-R56435:56435 LF.Basics <> B constr
-R56437:56437 LF.Basics <> Z constr
+R55527:55527 LF.Basics <> A constr
+R55548:55550 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R55535:55544 LF.Basics <> bin_to_nat def
+R55551:55560 LF.Basics <> bin_to_nat def
+R55569:55569 LF.Basics <> B constr
+R55577:55577 Coq.Init.Datatypes <> S constr
+R55593:55595 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R55580:55589 LF.Basics <> bin_to_nat def
+R55596:55605 LF.Basics <> bin_to_nat def
+def 56099:56112 <> test_bin_incr1
+R56117:56117 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56124:56128 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56132:56132 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56118:56121 LF.Basics <> incr def
+R56123:56123 LF.Basics <> Z constr
+R56129:56129 LF.Basics <> B constr
+R56131:56131 LF.Basics <> Z constr
+def 56168:56181 <> test_bin_incr2
+R56196:56198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56186:56189 LF.Basics <> incr def
+R56192:56192 LF.Basics <> B constr
+R56194:56194 LF.Basics <> Z constr
+R56199:56199 LF.Basics <> A constr
+R56202:56202 LF.Basics <> B constr
+R56204:56204 LF.Basics <> Z constr
+def 56241:56254 <> test_bin_incr3
+R56273:56275 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56259:56262 LF.Basics <> incr def
+R56265:56265 LF.Basics <> A constr
+R56268:56268 LF.Basics <> B constr
+R56270:56270 LF.Basics <> Z constr
+R56276:56276 LF.Basics <> B constr
+R56279:56279 LF.Basics <> B constr
+R56281:56281 LF.Basics <> Z constr
+def 56318:56331 <> test_bin_incr4
+R56350:56352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56336:56339 LF.Basics <> incr def
+R56342:56342 LF.Basics <> B constr
+R56345:56345 LF.Basics <> B constr
+R56347:56347 LF.Basics <> Z constr
+R56353:56353 LF.Basics <> A constr
+R56356:56356 LF.Basics <> A constr
+R56359:56359 LF.Basics <> B constr
+R56361:56361 LF.Basics <> Z constr
+def 56399:56412 <> test_bin_incr5
+R56435:56437 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56417:56420 LF.Basics <> incr def
+R56423:56423 LF.Basics <> A constr
+R56426:56426 LF.Basics <> A constr
+R56429:56429 LF.Basics <> B constr
+R56431:56431 LF.Basics <> Z constr
+R56438:56438 LF.Basics <> B constr
+R56441:56441 LF.Basics <> A constr
 R56444:56444 LF.Basics <> B constr
-R56447:56447 LF.Basics <> A constr
-R56450:56450 LF.Basics <> B constr
-R56452:56452 LF.Basics <> Z constr
-def 56515:56528 <> test_bin_incr6
-R56551:56553 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R56533:56536 LF.Basics <> incr def
+R56446:56446 LF.Basics <> Z constr
+def 56509:56522 <> test_bin_incr6
+R56545:56547 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56527:56530 LF.Basics <> incr def
+R56533:56533 LF.Basics <> B constr
+R56536:56536 LF.Basics <> A constr
 R56539:56539 LF.Basics <> B constr
-R56542:56542 LF.Basics <> A constr
-R56545:56545 LF.Basics <> B constr
-R56547:56547 LF.Basics <> Z constr
-R56554:56554 LF.Basics <> A constr
-R56557:56557 LF.Basics <> B constr
-R56560:56560 LF.Basics <> B constr
-R56562:56562 LF.Basics <> Z constr
-def 56601:56616 <> test_bin_to_nat1
-R56633:56635 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R56621:56630 LF.Basics <> bin_to_nat def
-R56632:56632 LF.Basics <> Z constr
-R56636:56636 Coq.Init.Datatypes <> O constr
-def 56672:56687 <> test_bin_to_nat2
-R56708:56710 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R56692:56701 LF.Basics <> bin_to_nat def
-R56704:56704 LF.Basics <> B constr
-R56706:56706 LF.Basics <> Z constr
-R56711:56711 Coq.Init.Datatypes <> S constr
-R56713:56713 Coq.Init.Datatypes <> O constr
-def 56749:56764 <> test_bin_to_nat3
-R56789:56791 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R56769:56778 LF.Basics <> bin_to_nat def
-R56781:56781 LF.Basics <> B constr
-R56784:56784 LF.Basics <> B constr
-R56786:56786 LF.Basics <> Z constr
+R56541:56541 LF.Basics <> Z constr
+R56548:56548 LF.Basics <> A constr
+R56551:56551 LF.Basics <> B constr
+R56554:56554 LF.Basics <> B constr
+R56556:56556 LF.Basics <> Z constr
+def 56595:56610 <> test_bin_to_nat1
+R56627:56629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56615:56624 LF.Basics <> bin_to_nat def
+R56626:56626 LF.Basics <> Z constr
+R56630:56630 Coq.Init.Datatypes <> O constr
+def 56666:56681 <> test_bin_to_nat2
+R56702:56704 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56686:56695 LF.Basics <> bin_to_nat def
+R56698:56698 LF.Basics <> B constr
+R56700:56700 LF.Basics <> Z constr
+R56705:56705 Coq.Init.Datatypes <> S constr
+R56707:56707 Coq.Init.Datatypes <> O constr
+def 56743:56758 <> test_bin_to_nat3
+R56783:56785 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56763:56772 LF.Basics <> bin_to_nat def
+R56775:56775 LF.Basics <> B constr
+R56778:56778 LF.Basics <> B constr
+R56780:56780 LF.Basics <> Z constr
+R56786:56786 Coq.Init.Datatypes <> S constr
+R56789:56789 Coq.Init.Datatypes <> S constr
 R56792:56792 Coq.Init.Datatypes <> S constr
-R56795:56795 Coq.Init.Datatypes <> S constr
-R56798:56798 Coq.Init.Datatypes <> S constr
-R56800:56800 Coq.Init.Datatypes <> O constr
-R56838:56847 LF.Basics <> bin_to_nat def
+R56794:56794 Coq.Init.Datatypes <> O constr
+R56832:56841 LF.Basics <> bin_to_nat def
+R56844:56844 LF.Basics <> A constr
+R56847:56847 LF.Basics <> B constr
 R56850:56850 LF.Basics <> A constr
 R56853:56853 LF.Basics <> B constr
-R56856:56856 LF.Basics <> A constr
-R56859:56859 LF.Basics <> B constr
-R56861:56861 LF.Basics <> Z constr
-def 56876:56891 <> test_bin_to_nat4
-R56924:56926 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R56896:56905 LF.Basics <> bin_to_nat def
+R56855:56855 LF.Basics <> Z constr
+def 56870:56885 <> test_bin_to_nat4
+R56918:56920 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56890:56899 LF.Basics <> bin_to_nat def
+R56902:56902 LF.Basics <> A constr
+R56905:56905 LF.Basics <> B constr
 R56908:56908 LF.Basics <> A constr
 R56911:56911 LF.Basics <> B constr
-R56914:56914 LF.Basics <> A constr
-R56917:56917 LF.Basics <> B constr
-R56919:56919 LF.Basics <> Z constr
+R56913:56913 LF.Basics <> Z constr
+R56921:56921 Coq.Init.Datatypes <> S constr
+R56924:56924 Coq.Init.Datatypes <> S constr
 R56927:56927 Coq.Init.Datatypes <> S constr
 R56930:56930 Coq.Init.Datatypes <> S constr
 R56933:56933 Coq.Init.Datatypes <> S constr
@@ -896,12 +895,10 @@ R56939:56939 Coq.Init.Datatypes <> S constr
 R56942:56942 Coq.Init.Datatypes <> S constr
 R56945:56945 Coq.Init.Datatypes <> S constr
 R56948:56948 Coq.Init.Datatypes <> S constr
-R56951:56951 Coq.Init.Datatypes <> S constr
-R56954:56954 Coq.Init.Datatypes <> S constr
-R56956:56956 Coq.Init.Datatypes <> O constr
-def 57098:57120 <> manual_grade_for_binary
-R57124:57129 Coq.Init.Datatypes <> option ind
-R57135:57135 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
-R57132:57134 Coq.Init.Datatypes <> nat ind
-R57136:57141 Coq.Strings.String <> string ind
-R57147:57150 Coq.Init.Datatypes <> None constr
+R56950:56950 Coq.Init.Datatypes <> O constr
+def 57092:57114 <> manual_grade_for_binary
+R57118:57123 Coq.Init.Datatypes <> option ind
+R57129:57129 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R57126:57128 Coq.Init.Datatypes <> nat ind
+R57130:57135 Coq.Strings.String <> string ind
+R57141:57144 Coq.Init.Datatypes <> None constr

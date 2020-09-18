@@ -982,9 +982,22 @@ Proof.
     involving the functions [count] and [sum], and prove it using
     Coq.  (You may find that the difficulty of the proof depends on
     how you defined [count]!) *)
-(* FILL IN HERE 
 
-    [] *)
+
+Theorem count_split: forall (b1: bag) (b2: bag),
+    count 0 (b1 ++ b2) = (count 0 b1) + (count 0 b2).
+Proof.
+  intros b1. induction b2 as [|n b2' IHb2'].
+  - simpl. rewrite app_nil_r. rewrite <- plus_n_O. reflexivity.
+  - simpl.
+
+Theorem bag_count_sum: forall b: bag,
+  count 0 (rev b) = count 0 b.
+Proof.
+  induction b as [|n s' IHs'].
+  - reflexivity.
+  - simpl.
+    
 
 (** **** Exercise: 4 stars, advanced (rev_injective)  
 
