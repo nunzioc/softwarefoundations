@@ -21,7 +21,6 @@
     "functional programming."  The direct connection between programs
     and simple mathematical objects supports both formal correctness
     proofs and sound informal reasoning about program behavior.
-
     The other sense in which functional programming is "functional" is
     that it emphasizes the use of functions (or methods) as
     _first-class_ values -- i.e., values that can be passed as
